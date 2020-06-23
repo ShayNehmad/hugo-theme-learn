@@ -2,7 +2,7 @@
 :root{
     
     --MAIN-TEXT-color:#333333; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #ffcc00; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-TITLES-TEXT-color: #00ff00; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:rgb(255, 153, 0); /* Color of links */
     --MAIN-LINK-HOVER-color:#f1ac44; /* Color of hovered links */
     --MAIN-ANCHOR-color: #ffcc00; /* color of anchors on titles */
