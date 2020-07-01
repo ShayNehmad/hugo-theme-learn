@@ -2,12 +2,13 @@
 :root{
     
     --MAIN-TEXT-color:#333333; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #ffcc00; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:rgb(255, 153, 0); /* Color of links */
-    --MAIN-LINK-HOVER-color:#f1ac44; /* Color of hovered links */
+    --MAIN-TITLES-TEXT-color: #AD8B00; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#cc7b00; /* Color of links */
+    --MAIN-LINK-HOVER-color:#C29B00; /* Color of hovered links */
     --MAIN-ANCHOR-color: #ffcc00; /* color of anchors on titles */
 
     --MENU-HEADER-BG-color:#ffcc00; /* Background color of menu header */
+    --MENU-HEADER-TITLES-TEXT-color:#ffcc00; /* Background color of menu header */
     --MENU-HEADER-BORDER-color:#2c2816; /*Color of menu header border */ 
     
     --MENU-SEARCH-BG-color:#a58400; /* Search field background color (by default borders + icons) */
@@ -108,4 +109,8 @@ a:hover {
 
 #body .tags a.tag-link:before {
     border-right-color: var(--MENU-HEADER-BG-color);
+}
+
+#shortcuts h3 {
+    color: var(--MENU-HEADER-TITLES-TEXT-color) !important;
 }
