@@ -114,3 +114,17 @@ a:hover {
 #shortcuts h3 {
     color: var(--MENU-HEADER-TITLES-TEXT-color) !important;
 }
+
+ul.children.children-p p{
+  display: inline;
+}
+
+ul.children.children-p a{
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+ul.children.children-p p:nth-child(even)::after {
+  content: "\A";
+  white-space: pre;
+}
